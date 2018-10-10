@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\tomll\downloads\orcs\orcs\orcs\source.cpp(177): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Orcs.vcxproj -> C:\Users\tomll\Downloads\Orcs\Orcs\Debug\Orcs.exe
