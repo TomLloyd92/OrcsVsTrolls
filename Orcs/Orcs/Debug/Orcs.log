@@ -1,3 +1,11 @@
 ﻿  Source.cpp
-c:\users\tomll\downloads\orcs\orcs\orcs\source.cpp(177): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Orcs.vcxproj -> C:\Users\tomll\Downloads\Orcs\Orcs\Debug\Orcs.exe
+c:\users\tomll\all github\orcsvstrolls\orcs\orcs\source.cpp(161): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\tomll\all github\orcsvstrolls\orcs\orcs\source.cpp(269): warning C4129: ' ': unrecognized character escape sequence
+c:\users\tomll\all github\orcsvstrolls\orcs\orcs\source.cpp(271): warning C4129: ' ': unrecognized character escape sequence
+c:\users\tomll\all github\orcsvstrolls\orcs\orcs\source.cpp(274): warning C4129: ' ': unrecognized character escape sequence
+c:\users\tomll\all github\orcsvstrolls\orcs\orcs\source.cpp(278): warning C4129: ' ': unrecognized character escape sequence
+c:\users\tomll\all github\orcsvstrolls\orcs\orcs\source.cpp(280): warning C4129: '.': unrecognized character escape sequence
+c:\users\tomll\all github\orcsvstrolls\orcs\orcs\source.cpp(281): warning C4129: ' ': unrecognized character escape sequence
+c:\users\tomll\all github\orcsvstrolls\orcs\orcs\source.cpp(286): warning C4129: ' ': unrecognized character escape sequence
+c:\users\tomll\all github\orcsvstrolls\orcs\orcs\source.cpp(287): warning C4129: '_': unrecognized character escape sequence
+  Orcs.vcxproj -> C:\Users\tomll\All GitHub\OrcsVsTrolls\Orcs\Debug\Orcs.exe

@@ -59,6 +59,7 @@ void resetAttacks(Orc& t_player, Troll& t_enemy);
 void attackSelector(Orc& t_player);
 void enemyAttack(Troll& t_enemy);
 void introText();
+void orcAscii();
 
 int main(void)
 {
@@ -75,6 +76,9 @@ int main(void)
 	//Set Player and Enemy starting Health
 	player->setHealth(10);
 	enemy1->setHealth(5);
+
+	//OrcASCII
+	orcAscii();
 	
 	//Intro
 	introText();
@@ -123,6 +127,7 @@ void attackSelector(Orc& t_player)
 	while (selected == false)
 	{
 		std::cin >> selector;
+		std::cout << "" << std::endl;
 
 		if (selector == "power")
 		{
@@ -246,6 +251,8 @@ void resetAttacks(Orc& t_player, Troll& t_enemy)
 
 void introText()
 {
+
+
 	std::cout << "You are the war cheif of your clan of mighty orcs," << std::endl;
 	std::cout << "the threat from the trolls has been persistant throughout these last years." << std::endl;
 	std::cout << "However these last few weeks the attacks have begun to grow more frequent," << std::endl;
@@ -254,4 +261,31 @@ void introText()
 	std::cout << "You have arrived close to the Troll camp," << std::endl;
 	std::cout << "however the troll king will be protected, you must destroy his bodyguards first!" << std::endl;
 	std::cout << "with a pincer movement set up you count to three and ATTACK!!! \n" << std::endl;
+}
+
+void orcAscii()
+{
+	std::cout << "                           __.--|~|--.__                    ORCS VS ,,;/;" << std::endl;
+	std::cout << "                         /~     | |    ;~\                TROLLS! ,;;;/;;'" << std::endl;
+	std::cout << "                        /|      | |    ;~\\                     ,;;;;/;;;'" << std::endl;
+	std::cout << "                       |/|      \\_/   ;;;|\                    ,;;;;/;;;;'" << std::endl;
+	std::cout << "                       |/ \\          ;;;/  )                 ,;;;;/;;;;;'" << std::endl;
+	std::cout << "                   ___ | ______     ;_____ |___....__      ,;;;;/;;;;;'" << std::endl;
+	std::cout << "             ___.-~ \\\\(| \\  \\.\\ \\__/ /./ /:|)~   ~   \   ,;;;;/;;;;;'" << std::endl;
+	std::cout << "         /~~~    ~\\    |  ~-.     |   .-~: |//  _.-~~--,;;;;/;;;;;'" << std::endl;
+	std::cout << "        (.-~___     \\.'|    | /-.__.-\\|::::| //~     ,;;;;/;;;;;'" << std::endl;
+	std::cout << "        /      ~~--._ \\|   /          `\\:: |/      ,;;;;/;;;;;'" << std::endl;
+	std::cout << "     .-|             ~~|   |  /V"">>>>V\ |:  |     ,;;;;/;;;;;' \\" << std::endl;
+	std::cout << "    /                   \\  |  ~`^~~^'~ |  /    ,;;;;/;;;;;'    ;" << std::endl;
+	std::cout << "   (        \\             \\|`\._____./'|/    ,;;;;/;;;;;'      '\\" << std::endl;
+	std::cout << "  / \        \\                             ,;;;;/;;;;;'     /    |" << std::endl;
+	std::cout << " |            |                          ,;;;;/;;;;;'      |     |" << std::endl;
+	std::cout << "|`-._          |                       ,;;;;/;;;;;'              \\" << std::endl;
+	std::cout << "|             /                      ,;;;;/;;;;;'  \\ \\__________" << std::endl;
+	std::cout << "(             )                 |  ,;;;;/;;;;;'      |        _.--~" << std::endl;
+	std::cout << " \          \\/ \\              ,  ;;;;;/;;;;;'       /( .-~_..--~~~~~~~~~~" << std::endl;
+	std::cout << " \__         '  `       ,     ,;;;;;/;;;;;'    .   /  \\   / /~" << std::endl;
+	std::cout << " /          \\'  |`._______ ,;;;;;;/;;;;;;'    /   :    \\/'/'       /|_/| ``|" << std::endl;
+	std::cout << "| _.-~~~~-._ |   \\ __   .,;;;;;;/;;;;;;' ~~~~'   .'    | |       /~ (/\\/  || \n\n" << std::endl;
+
 }
